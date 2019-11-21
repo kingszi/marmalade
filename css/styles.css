@@ -16,6 +16,6 @@
   }
 }
 
-row {
+div.row {
   flex-grow: 1;
 }
