@@ -1,0 +1,17 @@
+@media (min-width: 769px) {
+  .jumbotron {
+    background-image: url(../images/jumbotron_bg.png);
+    background-size: cover;
+    text-align: right;
+    color: rgb(255, 255, 255);
+  }
+}
+
+@media (max-width: 769px) {
+  .jumbotron {
+    background-image:url(../images/jumbotron_bg_sm.png);
+    background-size: cover;
+    text-align: left;
+    color: rgb(255, 255, 255);
+  }
+}
