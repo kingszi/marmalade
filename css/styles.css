@@ -3,6 +3,7 @@
     background-image: url(../images/jumbotron_bg.png);
     background-size: cover;
     text-align: right;
+    border-radius: 0px;
     color: rgb(255, 255, 255);
   }
 }
@@ -12,6 +13,7 @@
     background-image:url(../images/jumbotron_bg_sm.png);
     background-size: cover;
     text-align: left;
+    border-radius: 0px;
     color: rgb(255, 255, 255);
   }
 }
@@ -23,7 +25,8 @@ address {
 
 body
 {
-  padding-bottom: 10px;
+  margin-bottom: 160px;
+  margin-top: 55px;
 }
 
 map-container{
