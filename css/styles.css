@@ -3,6 +3,7 @@
     background-image: url(../images/jumbotron_bg.png);
     background-size: cover;
     text-align: right;
+    border-radius: 0px;
     color: rgb(255, 255, 255);
   }
 }
@@ -12,6 +13,7 @@
     background-image:url(../images/jumbotron_bg_sm.png);
     background-size: cover;
     text-align: left;
+    border-radius: 0px;
     color: rgb(255, 255, 255);
   }
 }
