@@ -100,3 +100,20 @@ div.row {
 .button:hover {
   background-color: #555;
 }
+
+ul.footer {
+  margin: 0px;
+}
+
+p.footer {
+  margin: 0px;
+}
+
+a.footer-link {
+  color: inherit;
+}
+
+a.footer-link:hover {
+  color: #007bff;
+  text-decoration: none;
+}
