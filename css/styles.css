@@ -23,12 +23,6 @@ address {
   font-style: italic;
 }
 
-body
-{
-  margin-top: 70px;
-  margin-bottom: 10px;
-}
-
 map-container{
 overflow:hidden;
 padding-bottom:10%;
@@ -114,6 +108,16 @@ a.footer-link {
 }
 
 a.footer-link:hover {
-  color: #007bff;
+  color: #28a745;
   text-decoration: none;
+}
+
+
+button.register-btn {
+  color: #28a745;
+}
+
+button.register-btn:hover {
+  text-decoration: underline;
+  color: #28a745;
 }
