@@ -95,6 +95,7 @@ div.row {
   background-color: #555;
 }
 
+/* adjusments for element layout in the footer */
 ul.footer {
   margin: 0px;
 }
@@ -112,7 +113,7 @@ a.footer-link:hover {
   text-decoration: none;
 }
 
-
+/* change button styles in header */
 button.register-btn {
   color: #28a745;
 }
