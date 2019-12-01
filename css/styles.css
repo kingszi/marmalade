@@ -23,12 +23,6 @@ address {
   font-style: italic;
 }
 
-body
-{
-  margin-top: 70px;
-  margin-bottom: 10px;
-}
-
 map-container{
 overflow:hidden;
 padding-bottom:10%;
@@ -99,4 +93,32 @@ div.row {
 
 .button:hover {
   background-color: #555;
+}
+
+/* adjusments for element layout in the footer */
+ul.footer {
+  margin: 0px;
+}
+
+p.footer {
+  margin: 0px;
+}
+
+a.footer-link {
+  color: inherit;
+}
+
+a.footer-link:hover {
+  color: #28a745;
+  text-decoration: none;
+}
+
+/* change button styles in header */
+button.register-btn {
+  color: #28a745;
+}
+
+button.register-btn:hover {
+  text-decoration: underline;
+  color: #28a745;
 }
