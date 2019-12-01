@@ -113,6 +113,10 @@ a.footer-link:hover {
   text-decoration: none;
 }
 
+div.footer {
+  font-size: 14px;
+}
+
 /* change button styles in header */
 button.register-btn {
   color: #28a745;
