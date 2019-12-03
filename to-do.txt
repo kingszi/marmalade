@@ -6,3 +6,6 @@ Things to do (if we have time):
 * Change the button colours after clicking
 * Change the button colours to green
 * Make sure the styling is the same everywhere
+* Add focus and outline to css for keyboard navigation
+* Add opacity on hover to images
+* Cookies page
