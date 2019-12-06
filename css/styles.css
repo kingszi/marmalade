@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
 @media (min-width: 769px) {
   .jumbotron {
     background-image: url(../images/jumbotron_bg.png);
@@ -61,6 +65,7 @@ div.row {
 /* Add some shadows to create a card effect */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
 }
 
 /* Some left and right padding inside the container */
@@ -125,4 +130,62 @@ button.register-btn {
 button.register-btn:hover {
   text-decoration: underline;
   color: #28a745;
+}
+
+* {box-sizing: border-box;}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 15px;
+  background: #28a745;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid #28a745;
+}
+
+/* Set a style for the submit button */
+.register-button {
+  background-color: #28a745;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.register-button:hover {
+  background-color: #28a745;
+  color: white;
+  opacity: 1;
+}
+
+.send-message-button {
+  background-color: #28a745;
+  color: white;
+  opacity: 0.9;
+}
+
+.send-message-button:hover {
+  background-color: #28a745;
+  color: white;
+  opacity: 1;
 }
