@@ -17,18 +17,19 @@
 <body>
 
   <!-- The navbar for the header -->
-
   <nav class="navbar navbar-light bg-light top m-0 p-2 pl-2 pr-2">
 
     <!-- toggle button and menu items -->
     <div class="navbar-nav navbar-expand-lg navbar-light mb-auto mr-auto  pt-1">
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav bd-navbar-nav mr-auto pl-1">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
@@ -50,59 +51,60 @@
           </li>
         </ul>
       </div>
+
     </div>
 
     <!-- register and sign-in buttons -->
     <div class="navbar-nav flex-row mb-auto pr-2 pt-1">
-      <a href="register.html"><button class="register-btn btn btn-link">Register</button><a>
-        <button class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#signinModal">
-          Sign in
-        </button>
-        <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content align-items-center">
-              <div class="modal-header">
-                <h5 class="modal-title" id="signinModalLabel">Sign in to your account</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <form>
-                  <div class="form-group">
-                    <label for="user-name" class="col-form-label">Username</label>
-                    <input type="text" class="form-control" id="user-name">
-                  </div>
-                  <div class="form-group">
-                    <label for="recipient-name" class="col-form-label">Password</label>
-                    <input type="password" class="form-control" id="password">
-                  </div>
-                </form>
-              </div>
-              <div class="modal-footer justify-content-center">
-                <button type="button" class="btn btn-success" data-dismiss="modal">Sign in</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-              </div>
+
+      <a href="register.html"><button class="register-btn btn btn-link">Register</button></a>
+
+      <button class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#signinModal">Sign in</button>
+      <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content align-items-center">
+            <div class="modal-header">
+              <h5 class="modal-title" id="signinModalLabel">Sign in to your account</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="user-name" class="col-form-label">Username</label>
+                  <input type="text" class="form-control" id="user-name">
+                </div>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Password</label>
+                  <input type="password" class="form-control" id="password">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Sign in</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- search-bar -->
-      <div class="navbar-nav flex-inline mb-auto mt-auto pt-1">
-        <div class="input-group m-auto">
-          <input class="form-control" type="search" placeholder="Search..." aria-label="Search">
-          <div class="input-group-append">
-            <button class="search-button btn btn-light active p-1" type="submit">
-              <span class="input-group"><img src="./icons/search.svg"></span>
-            </button>
-          </div>
+    <!-- search-bar -->
+    <div class="navbar-nav flex-inline mb-auto mt-auto pt-1">
+      <div class="input-group m-auto">
+        <input class="form-control" type="search" placeholder="Search..." aria-label="Search">
+        <div class="input-group-append">
+          <button class="search-button btn btn-light active p-1" type="submit">
+            <span class="input-group"><img src="./icons/search.svg"></span>
+          </button>
         </div>
       </div>
+    </div>
 
-    </nav>
+  </nav>
 
-    <!--This is the main image and header-->
+  <!-- jumbotron -->
 
     <div class="jumbotron jumbotron">
       <div class="container-fluid">
@@ -150,10 +152,11 @@
         </div>
       </div>
     </div>
-    <!-- Footer -->
 
+    <!-- Footer -->
     <div class="footer d-md-flex d-lg-flex d-sm-flex d-xl-flex justify-content-around align-items-center mt-5 bg-light">
 
+      <!-- social buttons -->
       <div class="p-2">
         <ul class="footer d-flex list-inline align-items-center justify-content-center flex-wrap">
           <li class="list-inline-item"><a href="https://twitter.com" ><img src="./icons/twitter.png" width = 40px class="p-1"></a></li>
@@ -164,10 +167,12 @@
         </ul>
       </div>
 
+      <!-- copyright -->
       <div class="p-2 d-flex justify-content-center">
         <p class="footer text-center">2019 © Team Marmalade for CodeFirst: Girls</p>
       </div>
 
+      <!-- content links -->
       <div class="p-2">
         <ul class="footer d-flex list-inline flex-wrap  justify-content-center">
           <li class="list-inline-item"><a class="footer-link" href="about.html">About</a></li>
@@ -184,12 +189,10 @@
 
     </div>
 
-
-
-    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
   </body>
   </html>
