@@ -247,3 +247,12 @@ a:hover {
   font-size: 16px;
   transform: rotateY(180deg);
 }
+
+/* link in text formatting */
+a.cookies {
+  color: #28a745;
+}
+ /* link in text formatting */
+a.cookies:hover {
+  text-decoration: underline;
+}
