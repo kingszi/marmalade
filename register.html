@@ -106,93 +106,101 @@
 
   <!-- jumbotron -->
 
-    <div class="jumbotron jumbotron">
-      <div class="container-fluid">
-        <h1 class="display-2 font-weight-bold">Pawsome Homes</h1>
-        <p class="h2 font-weight-bold">Adopt a best friend</p>
+  <div class="jumbotron jumbotron">
+    <div class="container-fluid">
+      <h1 class="display-2 font-weight-bold">Pawsome Homes</h1>
+      <p class="h2 font-weight-bold">Adopt a best friend</p>
+    </div>
+  </div>
+
+  <!-- Main body-->
+
+  <div class="container">
+
+    <!-- Register main text -->
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+        <h2>Register</h2>
+        <p>Are you interested in joining our team and accessing all the special opportunities? Sign up here to access the volunteer portal, internal vacancies and more.</p>
       </div>
     </div>
 
     <!-- Registration form -->
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+        <form action="/action_page.php">
+          <h3>Registration Form</h3>
 
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-8">
-          <h2>Register</h2>
-          <p>Are you interested in joining our team and accessing all the special opportunities? Sign up here to access the volunteer portal, internal vacancies and more.</p>
-        </div>
-      </div>
+          <!-- User name input -->
+          <div class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input class="input-field" type="text" placeholder="Username" name="usrnm">
+          </div>
 
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-8">
-          <form action="/action_page.php">
-            <h3>Registration Form</h3>
-            <div class="input-container">
-              <i class="fa fa-user icon"></i>
-              <input class="input-field" type="text" placeholder="Username" name="usrnm">
-            </div>
+          <!-- Email input -->
+          <div class="input-container">
+            <i class="fa fa-envelope icon"></i>
+            <input class="input-field" type="text" placeholder="Email" name="email">
+          </div>
 
-            <div class="input-container">
-              <i class="fa fa-envelope icon"></i>
-              <input class="input-field" type="text" placeholder="Email" name="email">
-            </div>
+          <!-- Pasword input -->
+          <div class="input-container">
+            <i class="fa fa-key icon"></i>
+            <input class="input-field" type="password" placeholder="Password" name="psw">
+          </div>
 
-            <div class="input-container">
-              <i class="fa fa-key icon"></i>
-              <input class="input-field" type="password" placeholder="Password" name="psw">
-            </div>
-
-            <button type="button" class="btn btn-lg btn-block button-success send-message-button" onclick="messageSent()">Register</button>
-          </form>
-          <script>
-          function messageSent() {
-            alert("Thank you for registering! You will receive a confirmation email soon.");
-          }
-          </script>
-        </div>
+          <!-- responsive register button -->
+          <button type="button" class="btn btn-lg btn-block button-success send-message-button" onclick="messageSent()">Register</button>
+        </form>
+        <script>
+        function messageSent() {
+          alert("Thank you for registering! You will receive a confirmation email soon.");
+        }
+        </script>
       </div>
     </div>
+  </div>
 
-    <!-- Footer -->
-    <div class="footer d-md-flex d-lg-flex d-sm-flex d-xl-flex justify-content-around align-items-center mt-5 bg-light">
+  <!-- Footer -->
+  <div class="footer d-md-flex d-lg-flex d-sm-flex d-xl-flex justify-content-around align-items-center mt-5 bg-light">
 
-      <!-- social buttons -->
-      <div class="p-2">
-        <ul class="footer d-flex list-inline align-items-center justify-content-center flex-wrap">
-          <li class="list-inline-item"><a href="https://twitter.com" ><img src="./icons/twitter.png" width = 40px class="p-1"></a></li>
-          <li class="list-inline-item"><a href="https://facebook.com"><img src="./icons/facebook.png" width = 40px class="p-1"></a></li>
-          <li class="list-inline-item"><a href="https://youtube.com"><img src="./icons/youtube.png" width = 40px class="p-1"></a></li>
-          <li class="list-inline-item"><a href="https://snapchat.com"><img src="./icons/snapchat.png" width = 40px class="p-1"></a></li>
-          <li class="list-inline-item"><a href="https://instagram.com"><img src="./icons/instagram.png" width = 40px class="p-1"></a></li>
-        </ul>
-      </div>
-
-      <!-- copyright -->
-      <div class="p-2 d-flex justify-content-center">
-        <p class="footer text-center">2019 © Team Marmalade for CodeFirst: Girls</p>
-      </div>
-
-      <!-- content links -->
-      <div class="p-2">
-        <ul class="footer d-flex list-inline flex-wrap  justify-content-center">
-          <li class="list-inline-item"><a class="footer-link" href="about.html">About</a></li>
-          <li class="list-inline-item"><a class="footer-link" href="donate.html">Donate</a>
-          </li>
-          <li class="list-inline-item"><a class="footer-link" href="volunteer.html">Volunteer</a>
-          </li>
-          <li class="list-inline-item"><a class="footer-link" href="contact_us.html">Contact</a>
-          </li>
-          <li class="list-inline-item"><a class="footer-link" href="cookies.html">Our Cookies</a>
-          </li>
-        </ul>
-      </div>
-
+    <!-- social buttons -->
+    <div class="p-2">
+      <ul class="footer d-flex list-inline align-items-center justify-content-center flex-wrap">
+        <li class="list-inline-item"><a href="https://twitter.com" ><img src="./icons/twitter.png" width = 40px class="p-1"></a></li>
+        <li class="list-inline-item"><a href="https://facebook.com"><img src="./icons/facebook.png" width = 40px class="p-1"></a></li>
+        <li class="list-inline-item"><a href="https://youtube.com"><img src="./icons/youtube.png" width = 40px class="p-1"></a></li>
+        <li class="list-inline-item"><a href="https://snapchat.com"><img src="./icons/snapchat.png" width = 40px class="p-1"></a></li>
+        <li class="list-inline-item"><a href="https://instagram.com"><img src="./icons/instagram.png" width = 40px class="p-1"></a></li>
+      </ul>
     </div>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- copyright -->
+    <div class="p-2 d-flex justify-content-center">
+      <p class="footer text-center">2019 © Team Marmalade for CodeFirst: Girls</p>
+    </div>
 
-  </body>
-  </html>
+    <!-- content links -->
+    <div class="p-2">
+      <ul class="footer d-flex list-inline flex-wrap  justify-content-center">
+        <li class="list-inline-item"><a class="footer-link" href="about.html">About</a></li>
+        <li class="list-inline-item"><a class="footer-link" href="donate.html">Donate</a>
+        </li>
+        <li class="list-inline-item"><a class="footer-link" href="volunteer.html">Volunteer</a>
+        </li>
+        <li class="list-inline-item"><a class="footer-link" href="contact_us.html">Contact</a>
+        </li>
+        <li class="list-inline-item"><a class="footer-link" href="cookies.html">Our Cookies</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

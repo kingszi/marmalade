@@ -103,84 +103,93 @@
   </nav>
 
   <!-- jumbotron -->
-    <div class="jumbotron jumbotron">
-      <div class="container-fluid">
-        <h1 class="display-2 font-weight-bold">Pawsome Homes</h1>
-        <p class="h2 font-weight-bold">Adopt a best friend</p>
-      </div>
-    </div>
-
+  <div class="jumbotron jumbotron">
     <div class="container-fluid">
+      <h1 class="display-2 font-weight-bold">Pawsome Homes</h1>
+      <p class="h2 font-weight-bold">Adopt a best friend</p>
+    </div>
+  </div>
+
+  <!-- Main body -->
+  <div class="container-fluid">
+
+    <!-- Donate description -->
+    <div class="row justify-content-center m-1">
+      <div class="col-12 col-md-8">
+        <h1>Make a donation</h1>
+        <p>Our animal shelter is working tirelessly to improve care for abandoned animals, and
+          we rely mainly on donations. Let’s save animals together!</p>
+        </div>
+      </div>
+
+      <!-- Donate buttons -->
       <div class="row justify-content-center">
-        <div class="col-12 col-md-8">
-          <h1>Make a donation</h1>
-          <p>Our animal shelter is working tirelessly to improve care for abandoned animals, and
-            we rely mainly on donations. Let’s save animals together!</p>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-8-auto">
-            <center><button type="button" class="btn btn-lg button-success send-message-button p-2 m-1" onclick="messageSent()">Make a monthly donation</button>
-              <button type="button" class="btn btn-lg button-success send-message-button p-2 m-1" onclick="messageSent()">Make a single donation</button></center>
-              <script>
-              function messageSent() {
-                alert("Thank you for your donation!");
-              }
-              </script>
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-10 col-md-6">
-              <img src=".\images\payment-method.png" class="img-fluid" alt="Available payment methods">
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-12 col-md-6">
-              <h3><center>Thank you for your contribution!</center></h3>
-            </div>
+        <div class="col-12 col-md-8-auto">
+          <center><button type="button" class="btn btn-lg button-success send-message-button p-2 m-1" onclick="messageSent()">Make a monthly donation</button>
+            <button type="button" class="btn btn-lg button-success send-message-button p-2 m-1" onclick="messageSent()">Make a single donation</button></center>
+            <script>
+            function messageSent() {
+              alert("Thank you for your donation!");
+            }
+            </script>
           </div>
         </div>
 
-        <!-- Footer -->
-        <div class="footer d-md-flex d-lg-flex d-sm-flex d-xl-flex justify-content-around align-items-center mt-5 bg-light">
-
-          <!-- social buttons -->
-          <div class="p-2">
-            <ul class="footer d-flex list-inline align-items-center justify-content-center flex-wrap">
-              <li class="list-inline-item"><a href="https://twitter.com" ><img src="./icons/twitter.png" width = 40px class="p-1"></a></li>
-              <li class="list-inline-item"><a href="https://facebook.com"><img src="./icons/facebook.png" width = 40px class="p-1"></a></li>
-              <li class="list-inline-item"><a href="https://youtube.com"><img src="./icons/youtube.png" width = 40px class="p-1"></a></li>
-              <li class="list-inline-item"><a href="https://snapchat.com"><img src="./icons/snapchat.png" width = 40px class="p-1"></a></li>
-              <li class="list-inline-item"><a href="https://instagram.com"><img src="./icons/instagram.png" width = 40px class="p-1"></a></li>
-            </ul>
+        <!-- Paymenet method images -->
+        <div class="row justify-content-center m-1">
+          <div class="col-10 col-md-6">
+            <img src=".\images\payment-method.png" class="img-fluid" alt="Available payment methods">
           </div>
-
-          <!-- copyright -->
-          <div class="p-2 d-flex justify-content-center">
-            <p class="footer text-center">2019 © Team Marmalade for CodeFirst: Girls</p>
-          </div>
-
-          <!-- content links -->
-          <div class="p-2">
-            <ul class="footer d-flex list-inline flex-wrap  justify-content-center">
-              <li class="list-inline-item"><a class="footer-link" href="about.html">About</a></li>
-              <li class="list-inline-item"><a class="footer-link" href="donate.html">Donate</a>
-              </li>
-              <li class="list-inline-item"><a class="footer-link" href="volunteer.html">Volunteer</a>
-              </li>
-              <li class="list-inline-item"><a class="footer-link" href="contact_us.html">Contact</a>
-              </li>
-              <li class="list-inline-item"><a class="footer-link" href="cookies.html">Our Cookies</a>
-              </li>
-            </ul>
-          </div>
-
         </div>
 
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- Thank you for the contribution text -->
+        <div class="row justify-content-center m-1">
+          <div class="col-12 col-md-6">
+            <h3><center>Thank you for your contribution!</center></h3>
+          </div>
+        </div>
+      </div>
 
-      </body>
-      </html>
+      <!-- Footer -->
+      <div class="footer d-md-flex d-lg-flex d-sm-flex d-xl-flex justify-content-around align-items-center mt-5 bg-light">
+
+        <!-- social buttons -->
+        <div class="p-2">
+          <ul class="footer d-flex list-inline align-items-center justify-content-center flex-wrap">
+            <li class="list-inline-item"><a href="https://twitter.com" ><img src="./icons/twitter.png" width = 40px class="p-1"></a></li>
+            <li class="list-inline-item"><a href="https://facebook.com"><img src="./icons/facebook.png" width = 40px class="p-1"></a></li>
+            <li class="list-inline-item"><a href="https://youtube.com"><img src="./icons/youtube.png" width = 40px class="p-1"></a></li>
+            <li class="list-inline-item"><a href="https://snapchat.com"><img src="./icons/snapchat.png" width = 40px class="p-1"></a></li>
+            <li class="list-inline-item"><a href="https://instagram.com"><img src="./icons/instagram.png" width = 40px class="p-1"></a></li>
+          </ul>
+        </div>
+
+        <!-- copyright -->
+        <div class="p-2 d-flex justify-content-center">
+          <p class="footer text-center">2019 © Team Marmalade for CodeFirst: Girls</p>
+        </div>
+
+        <!-- content links -->
+        <div class="p-2">
+          <ul class="footer d-flex list-inline flex-wrap  justify-content-center">
+            <li class="list-inline-item"><a class="footer-link" href="about.html">About</a></li>
+            <li class="list-inline-item"><a class="footer-link" href="donate.html">Donate</a>
+            </li>
+            <li class="list-inline-item"><a class="footer-link" href="volunteer.html">Volunteer</a>
+            </li>
+            <li class="list-inline-item"><a class="footer-link" href="contact_us.html">Contact</a>
+            </li>
+            <li class="list-inline-item"><a class="footer-link" href="cookies.html">Our Cookies</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </body>
+    </html>
