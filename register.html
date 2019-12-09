@@ -115,11 +115,15 @@
   <!-- Registration form -->
 
 <div class="container">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8">
   <h2>Register</h2>
   <p>Are you interested in joining our team and accessing all the special opportunities? Sign up here to access the volunteer portal, internal vacancies and more.</p>
+  </div>
 </div>
 
-<div class="container">
+<div class="row justify-content-center">
+  <div class="col-12 col-md-8">
   <form action="/action_page.php">
     <h3>Registration Form</h3>
     <div class="input-container">
@@ -137,8 +141,15 @@
       <input class="input-field" type="password" placeholder="Password" name="psw">
     </div>
 
-    <button type="submit" class="register-button">Register</button>
+    <button type="button" class="btn btn-lg btn-block button-success send-message-button" onclick="messageSent()">Register</button>
   </form>
+  <script>
+  function messageSent() {
+    alert("Thank you for registering! You will receive a confirmation email soon.");
+  }
+  </script>
+</div>
+</div>
 </div>
   <!-- Footer -->
 

@@ -13,6 +13,9 @@ body {
 }
 
 @media (max-width: 769px) {
+  .display-2 {
+    font-size: 40px;
+  }
   .jumbotron {
     background-image:url(../images/jumbotron_bg_sm.png);
     background-size: cover;
@@ -98,6 +101,7 @@ div.row {
 
 .button:hover {
   background-color: #555;
+  text-decoration: none;
 }
 
 /* adjusments for element layout in the footer */
@@ -190,6 +194,10 @@ button.register-btn:hover {
   opacity: 1;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
@@ -259,4 +267,12 @@ button.register-btn:hover {
 .flipcard-text {
   font-size: 20px;
   padding: 10px;
+
+  /* link in text formatting */
+  a.cookies {
+    color: #28a745;
+  }
+   /* link in text formatting */
+  a.cookies:hover {
+    text-decoration: underline;
 }
