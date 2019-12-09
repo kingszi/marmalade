@@ -2,6 +2,7 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+/* Jumbotron setting for big screens */
 @media (min-width: 769px) {
   .jumbotron {
     background-image: url(../images/jumbotron_bg.png);
@@ -12,6 +13,7 @@ body {
   }
 }
 
+/* Jumbotron setting for small screen */
 @media (max-width: 769px) {
   .display-2 {
     font-size: 40px;
@@ -25,11 +27,13 @@ body {
   }
 }
 
+/* Adress form in contacts */
 address {
   display: block;
   font-style: italic;
 }
 
+/* Map style in contacts */
 map-container{
   overflow:hidden;
   padding-bottom:10%;
@@ -83,54 +87,28 @@ div.row {
   display: table;
 }
 
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-  text-decoration: none;
-}
-
-/* adjusments for element layout in the footer */
-ul.footer {
-  margin: 0px;
-}
-
-p.footer {
-  margin: 0px;
-}
-
+/* remove default color for links in footer */
 a.footer-link {
   color: inherit;
 }
 
+/* change color to green and remove underline upton hover on a link in footer */
 a.footer-link:hover {
   color: #28a745;
   text-decoration: none;
 }
 
+/* reduce font size in footer */
 div.footer {
   font-size: 14px;
 }
 
-/* change button styles in header */
+/* change register button style in header */
 button.register-btn {
   color: #28a745;
 }
 
+/* chnage register button appearance upon hover */
 button.register-btn:hover {
   text-decoration: underline;
   color: #28a745;
@@ -161,11 +139,7 @@ button.register-btn:hover {
   outline: none;
 }
 
-.input-field:focus {
-  border: 2px solid #28a745;
- }
-
-/* Set a style for the submit button */
+/* Set a style for the submit buttons for the registration form */
 .register-button {
   background-color: #28a745;
   color: white;
@@ -176,24 +150,28 @@ button.register-btn:hover {
   opacity: 0.9;
 }
 
+/* Set a style for the submit buttons for the registration form */
 .register-button:hover {
   background-color: #28a745;
   color: white;
   opacity: 1;
 }
 
+/* Set a style for the submit buttons for the registration form */
 .send-message-button {
   background-color: #28a745;
   color: white;
   opacity: 0.9;
 }
 
+/* Set a style for the submit buttons for the registration form */
 .send-message-button:hover {
   background-color: #28a745;
   color: white;
   opacity: 1;
 }
 
+/* remove underline from hyperlinks */
 a:hover {
   text-decoration: none;
 }
@@ -239,7 +217,6 @@ a:hover {
   font-size: 16px;
 }
 
-
 .flip-card-back {
   background-color: rgb(255, 255, 255);
   color: white;
@@ -272,15 +249,12 @@ a:hover {
   padding: 10px;
 }
 
+/* Change hyperlink in main text colour to green */
 a.text {
   color: #28a745;
 }
 
-/* link in text formatting */
+/* Make hyperlinks in text underlined upon hover */
 a.text:hover {
     text-decoration: underline;
-}
-
-button.navbar-toggler {
-  border-color: #28a745;
 }
