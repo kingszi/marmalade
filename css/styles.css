@@ -267,12 +267,13 @@ a:hover {
 .flipcard-text {
   font-size: 20px;
   padding: 10px;
+}
 
-  /* link in text formatting */
-  a.cookies {
-    color: #28a745;
-  }
-   /* link in text formatting */
-  a.cookies:hover {
+a.text {
+  color: #28a745;
+}
+
+/* link in text formatting */
+a.text:hover {
     text-decoration: underline;
 }
