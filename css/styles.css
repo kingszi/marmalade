@@ -198,14 +198,14 @@ a:hover {
   text-decoration: none;
 }
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+/* The flip card container */
 .flip-card {
   background-color: transparent;
   margin: 10px;
   width: 312px;
   height: 370px;
   border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px;
 }
 
 /* This container is needed to position the front and back side */
@@ -223,7 +223,7 @@ a:hover {
   transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
+
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
@@ -231,9 +231,7 @@ a:hover {
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
   color: black;
   width: 312px;
   height: 370px;
@@ -241,10 +239,10 @@ a:hover {
   font-size: 16px;
 }
 
-/* Style the back side */
+
 .flip-card-back {
-  background-color: #bbb;
-  color: #28a745;
+  background-color: transparent;
+  color: white;
   width: 312px;
   height: 370px;
   font-family: arial;
@@ -254,18 +252,23 @@ a:hover {
 
 .flipcard-header {
   font-size: 32px;
+  background-color: #28a745;
+  color: rgb(255, 255, 255);
   font-weight: bolder;
   padding: 20px;
 }
 
 .flipcard-tagline {
   font-size: 24px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 10px;
-
 }
 
 .flipcard-text {
   font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 10px;
 }
 
