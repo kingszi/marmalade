@@ -1,6 +1,6 @@
 Things to do (if we have time):
 
-* Come up with a new name for the shelter
+* Come up with a new name for the shelter -done
 * Change related email addresses on the website
 * More text for all pages to improve the look
 * Change the button colours after clicking
@@ -8,4 +8,4 @@ Things to do (if we have time):
 * Make sure the styling is the same everywhere
 * Add focus and outline to css for keyboard navigation
 * Add opacity on hover to images
-* Cookies page
+* Cookies page - done
