@@ -13,13 +13,15 @@ body {
 }
 
 @media (max-width: 769px) {
+  .display-2 {
+    font-size: 40px;
+  }
   .jumbotron {
     background-image:url(../images/jumbotron_bg_sm.png);
     background-size: cover;
     text-align: left;
     border-radius: 0px;
     color: rgb(255, 255, 255);
-    font-size: 30px;
   }
 }
 
