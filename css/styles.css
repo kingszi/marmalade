@@ -194,8 +194,8 @@ button.register-btn:hover {
 .flip-card {
   background-color: transparent;
   margin: 10px;
-  width: 260px;
-  height: 310px;
+  width: 312px;
+  height: 370px;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -227,15 +227,36 @@ button.register-btn:hover {
 .flip-card-front {
   background-color: #bbb;
   color: black;
+  width: 312px;
+  height: 370px;
   font-family: arial;
   font-size: 16px;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: #28a745;
-  color: white;
+  background-color: #bbb;
+  color: #28a745;
+  width: 312px;
+  height: 370px;
   font-family: arial;
   font-size: 16px;
   transform: rotateY(180deg);
+}
+
+.flipcard-header {
+  font-size: 32px;
+  font-weight: bolder;
+  padding: 20px;
+}
+
+.flipcard-tagline {
+  font-size: 24px;
+  padding: 10px;
+
+}
+
+.flipcard-text {
+  font-size: 20px;
+  padding: 10px;
 }
