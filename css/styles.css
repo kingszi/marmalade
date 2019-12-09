@@ -31,18 +31,18 @@ address {
 }
 
 map-container{
-overflow:hidden;
-padding-bottom:10%;
-position:relative;
-height:0;
+  overflow:hidden;
+  padding-bottom:10%;
+  position:relative;
+  height:0;
 }
 
 map-container iframe{
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
 
 div.row {
@@ -163,7 +163,7 @@ button.register-btn:hover {
 
 .input-field:focus {
   border: 2px solid #28a745;
-}
+ }
 
 /* Set a style for the submit button */
 .register-button {
@@ -272,11 +272,15 @@ a:hover {
   padding: 10px;
 }
 
-  /* link in text formatting */
-  a.cookies {
-    color: #28a745;
-  }
-   /* link in text formatting */
-  a.cookies:hover {
+a.text {
+  color: #28a745;
+}
+
+/* link in text formatting */
+a.text:hover {
     text-decoration: underline;
+}
+
+button.navbar-toggler {
+  border-color: #28a745;
 }
