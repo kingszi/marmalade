@@ -241,7 +241,7 @@ a:hover {
 
 
 .flip-card-back {
-  background-color: transparent;
+  background-color: rgb(255, 255, 255);
   color: white;
   width: 312px;
   height: 370px;
