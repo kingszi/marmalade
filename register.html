@@ -141,8 +141,13 @@
       <input class="input-field" type="password" placeholder="Password" name="psw">
     </div>
 
-    <button type="submit" class="register-button">Register</button>
+    <button type="button" class="btn btn-lg btn-block button-success send-message-button" onclick="messageSent()">Register</button>
   </form>
+  <script>
+  function messageSent() {
+    alert("Thank you for registering! You will receive a confirmation email soon.");
+  }
+  </script>
 </div>
 </div>
 </div>
