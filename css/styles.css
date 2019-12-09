@@ -193,6 +193,7 @@ button.register-btn:hover {
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
+  margin: 10px;
   width: 260px;
   height: 310px;
   border: 1px solid #f1f1f1;
@@ -226,11 +227,15 @@ button.register-btn:hover {
 .flip-card-front {
   background-color: #bbb;
   color: black;
+  font-family: arial;
+  font-size: 16px;
 }
 
 /* Style the back side */
 .flip-card-back {
   background-color: #28a745;
   color: white;
+  font-family: arial;
+  font-size: 16px;
   transform: rotateY(180deg);
 }
