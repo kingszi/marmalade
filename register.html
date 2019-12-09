@@ -16,58 +16,92 @@
 </head>
 <body>
 
-  <!-- The navbar for the header -->
 
-  <nav class="navbar navbar-light bg-light top m-0 p-2 pl-2 pr-2">
+    <!-- The navbar for the header -->
 
-    <div class="navbar-nav navbar-expand-lg navbar-light mb-auto mr-auto">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav bd-navbar-nav mr-auto pl-1">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="our_animals.html">Our Animals</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="animal_of_the_month.html">Pet of the month</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="volunteer.html">Volunteer</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="donate.html">Donate</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact_us.html">Contacts</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <nav class="navbar navbar-light bg-light top m-0 p-2 pl-2 pr-2">
 
-    <div class="navbar-nav flex-row mb-auto pr-2">
-      <button class="register-btn btn btn-link">Register</button>
-      <button class="btn btn-outline-success" type="submit">Sign in</button>
-    </div>
-
-    <div class="navbar-nav flex-inline mb-auto">
-      <div class="input-group m-auto">
-        <input class="form-control" type="search" placeholder="Search..." aria-label="Search">
-        <div class="input-group-append">
-          <button class="btn btn-light active p-1" type="submit">
-            <span class="input-group"><img src="./icons/search.svg"></span>
-          </button>
+  <!-- toggle button and menu items -->
+      <div class="navbar-nav navbar-expand-lg navbar-light mb-auto mr-auto">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav bd-navbar-nav mr-auto pl-1">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="our_animals.html">Our Animals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="animal_of_the_month.html">Pet of the month</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="volunteer.html">Volunteer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="donate.html">Donate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact_us.html">Contacts</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
 
-  </nav>
+  <!-- register and sign-in buttons -->
+      <div class="navbar-nav flex-row mb-auto pr-2">
+        <a href="register.html"><button class="register-btn btn btn-link">Register</button><a>
+        <button class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#signinModal">
+          Sign in
+        </button>
+        <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content align-items-center">
+              <div class="modal-header">
+                <h5 class="modal-title" id="signinModalLabel">Sign in to your account</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="user-name" class="col-form-label">Username</label>
+                    <input type="text" class="form-control" id="user-name">
+                  </div>
+                  <div class="form-group">
+                    <label for="recipient-name" class="col-form-label">Password</label>
+                    <input type="password" class="form-control" id="password">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Sign in</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <!-- search-bar -->
+      <div class="navbar-nav flex-inline mb-auto">
+        <div class="input-group m-auto">
+          <input class="form-control border-success" type="search" placeholder="Search..." aria-label="Search">
+          <div class="input-group-append">
+            <button class="search-button btn btn-light active border-success p-1" type="submit">
+              <span class="input-group"><img src="./icons/search.svg"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </nav>
 
   <!--This is the main image and header-->
 
@@ -133,7 +167,7 @@
         </li>
         <li class="list-inline-item"><a class="footer-link" href="contact_us.html">Contact</a>
         </li>
-        <li class="list-inline-item"><a class="footer-link" href="">Our Cookies</a>
+        <li class="list-inline-item"><a class="footer-link" href="cookies.html">Our Cookies</a>
         </li>
       </ul>
     </div>
