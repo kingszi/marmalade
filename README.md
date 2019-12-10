@@ -6,4 +6,4 @@ It allowed the team members to develop their web development skills in HTML, CSS
 
 If you have any comments or suggestions, feel free to get in touch on vilija.lomeikaite@gmail.com, ramoskaite.laura@gmail.com or jkinga428@gmail.com.
 
-Follow us on github: kingzi (Kinga Juhasz), LauraRamoskaite (Laura Ramoskaite) and vilijalom (Vilija Lomeikaite).
+Follow us on github: kingszi (Kinga Juhasz), LauraRamoskaite (Laura Ramoskaite) and vilijalom (Vilija Lomeikaite).
